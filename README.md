@@ -1,16 +1,145 @@
-# React + Vite
+🛒 SmartShop – Full Stack E-Commerce Web Application
+📌 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SmartShop is a full-stack e-commerce web application where users can browse products, add them to cart, place orders, and track their purchases. The admin can manage products, orders, and inventory through a dedicated dashboard.
 
-Currently, two official plugins are available:
+This project demonstrates a complete real-world e-commerce workflow using modern web technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
+👤 User Features
 
-## React Compiler
+User Registration & Login (Authentication)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Browse Products with Search & Filter
 
-## Expanding the ESLint configuration
+View Product Details
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add to Cart / Remove from Cart
+
+Checkout & Place Orders
+
+Track Orders (Pending, Shipped, Delivered)
+
+User Profile Management
+
+👨‍💼 Admin Features
+
+Admin Dashboard
+
+Add / Update / Delete Products
+
+Manage Inventory (Stock)
+
+View and Manage Orders
+
+Update Order Status
+
+🏗️ Tech Stack
+💻 Frontend
+
+React.js
+
+Tailwind CSS
+
+Axios (API integration)
+
+⚙️ Backend
+
+Java (Spring Boot)
+
+REST APIs
+
+JWT Authentication
+
+🗄️ Database
+
+MySQL (Relational Database)
+
+☁️ Deployment (Optional)
+
+Railway / Render
+
+🗄️ Database Schema
+
+The system uses the following main tables:
+
+Users
+
+Products
+
+Cart
+
+Orders
+
+Order_Items
+
+These tables are connected using relationships to handle user actions and order processing efficiently.
+
+🔄 System Workflow
+
+User registers or logs into the system
+
+User browses available products
+
+Adds products to cart
+
+Proceeds to checkout and completes payment
+
+Order is created and stored in database
+
+User tracks order status
+
+Admin manages products and updates order status
+
+📁 Project Structure
+Frontend (React)
+
+components → Reusable UI
+
+pages → Screens (Login, Products, Cart, etc.)
+
+services → API calls
+
+routes → Routing setup
+
+context → Global state
+
+Backend (Spring Boot)
+
+controller → API endpoints
+
+service → Business logic
+
+repository → Database access
+
+model → Entities
+
+config → Security & configuration
+
+🔐 Authentication & Security
+
+JWT-based authentication
+
+Role-based access (USER / ADMIN)
+
+Secure API communication
+
+🎯 Project Objective
+
+The main goal of this project is to:
+
+Understand full-stack development
+
+Implement real-world e-commerce logic
+
+Learn API integration and database management
+
+Build a scalable and structured application
+
+📌 Conclusion
+
+SmartShop is a complete end-to-end e-commerce solution that demonstrates how frontend, backend, and database work together to deliver a seamless user experience.
+
+💬 Author Note
+
+This project was developed as part of a team-based internship to gain hands-on experience in full-stack web development.
