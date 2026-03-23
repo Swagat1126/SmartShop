@@ -1,0 +1,42 @@
+export const phones = [
+    {
+        id: 1,
+        title: "iPhone 14",
+        price: 75000,
+        category: "Phones",
+        type: "iOS",
+        thumbnail: "https://images.unsplash.com/photo-1661961110675-6d6f65d5d9a5",
+    },
+    {
+        id: 2,
+        title: "iPhone 15 Pro",
+        price: 120000,
+        category: "Phones",
+        type: "iOS",
+        thumbnail: "https://images.unsplash.com/photo-1695048133142-1a20484d2569",
+    },
+    {
+        id: 3,
+        title: "Samsung Galaxy S23",
+        price: 65000,
+        category: "Phones",
+        type: "Android",
+        thumbnail: "https://images.unsplash.com/photo-1670272505340-d906d8c2c1a9",
+    },
+    {
+        id: 4,
+        title: "OnePlus 11",
+        price: 50000,
+        category: "Phones",
+        type: "Android",
+        thumbnail: "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+    },
+    {
+        id: 5,
+        title: "Realme GT",
+        price: 30000,
+        category: "Phones",
+        type: "Android",
+        thumbnail: "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+    },
+];

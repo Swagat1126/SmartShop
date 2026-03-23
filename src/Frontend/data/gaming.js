@@ -1,0 +1,58 @@
+export const gaming = [
+    {
+        id: 1,
+        title: "Gaming Controller",
+        price: 1200,
+        category: "Gaming",
+        thumbnail: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db",
+    },
+    {
+        id: 2,
+        title: "Gaming Mouse",
+        price: 1500,
+        category: "Gaming",
+        thumbnail: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7",
+    },
+    {
+        id: 3,
+        title: "Mechanical Keyboard",
+        price: 3500,
+        category: "Gaming",
+        thumbnail: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+    },
+    {
+        id: 4,
+        title: "Gaming Headset",
+        price: 2200,
+        category: "Gaming",
+        thumbnail: "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd",
+    },
+    {
+        id: 5,
+        title: "Gaming Monitor",
+        price: 12000,
+        category: "Gaming",
+        thumbnail: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7",
+    },
+    {
+        id: 6,
+        title: "Gaming Chair",
+        price: 8500,
+        category: "Gaming",
+        thumbnail: "https://images.unsplash.com/photo-1582582494700-8c9d5e7e9b41",
+    },
+    {
+        id: 7,
+        title: "PlayStation 5",
+        price: 50000,
+        category: "Gaming",
+        thumbnail: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db",
+    },
+    {
+        id: 8,
+        title: "Xbox Series X",
+        price: 48000,
+        category: "Gaming",
+        thumbnail: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
+    },
+];
