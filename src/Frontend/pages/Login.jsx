@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
@@ -62,7 +62,14 @@ const Login = () => {
 
         setTimeout(() => {
             setShowPopup(false);
-            navigate("/");
+
+
+            if (user.role === "admin") {
+                navigate("/admin/dashboard");
+            } else {
+                navigate("/");
+            }
+
         }, 1500);
     };
 
@@ -77,7 +84,7 @@ const Login = () => {
 
                 <div className="hidden md:flex w-full items-center justify-center bg-gray-100">
                     <img
-                        src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da"
+                        src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&h=400&fit=crop"
                         alt="login"
                         className="w-3/4 rounded-xl shadow-lg"
                     />

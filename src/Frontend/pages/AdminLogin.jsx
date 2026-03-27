@@ -36,7 +36,6 @@ const AdminLogin = () => {
         return;
       }
 
-      // ✅ Save only session info (optional)
       sessionStorage.setItem("admin", JSON.stringify(res.data.admin));
 
       navigate("/admin/dashboard");
