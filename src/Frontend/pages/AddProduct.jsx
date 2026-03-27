@@ -9,6 +9,9 @@ const AddProduct = () => {
   const [product, setProduct] = useState({
     name: "",
     price: "",
+    category: "",
+    description: "",
+    stock: "",
     image: null,
   });
 
@@ -32,7 +35,11 @@ const AddProduct = () => {
     const formData = new FormData();
     formData.append("name", product.name);
     formData.append("price", product.price);
-    formData.append("image", product.image);
+    formData.append("category", product.category);
+    formData.append("description", product.description);
+    formData.append("stock", product.stock);
+    formData.append("image", file);
+    
 
     try {
       await axios.post(
@@ -68,6 +75,32 @@ const AddProduct = () => {
           name="price"
           placeholder="Product Price"
           value={product.price}
+          onChange={handleChange}
+          required
+        />
+
+        <input
+          type="text"
+          name="category"
+          placeholder="Category"
+          value={product.category}
+          onChange={handleChange}
+          required
+        />
+
+        <textarea
+          name="description"
+          placeholder="Product Description"
+          value={product.description}
+          onChange={handleChange}
+          required
+        />
+
+        <input
+          type="number"
+          name="stock"
+          placeholder="Stock Quantity"
+          value={product.stock}
           onChange={handleChange}
           required
         />
