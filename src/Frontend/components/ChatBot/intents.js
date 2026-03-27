@@ -41,16 +41,6 @@ const intents = [
     },
 
     {
-        keywords: ["login", "sign in"],
-        response: "🔐 Please login to access cart and order features."
-    },
-
-    {
-        keywords: ["signup", "register"],
-        response: "📝 You can create a new account from the signup page."
-    },
-
-    {
         keywords: ["filter", "search"],
         response: "🔍 Use search and filters on category pages to find products easily."
     },
