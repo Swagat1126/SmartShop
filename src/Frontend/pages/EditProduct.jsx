@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
+import "../styles/EditProduct.css";
 
 const EditProduct = () => {
   const { id } = useParams();
@@ -9,10 +10,13 @@ const EditProduct = () => {
   const [formData, setFormData] = useState({
     name: "",
     price: "",
+    stock: "",
+    category: "",   // ✅ ADDED
+    description: "",
     image: null,
   });
 
-  // Fetch product
+  // Fetch product data
   useEffect(() => {
     axios
       .get(`http://localhost:5000/api/products/${id}`)
@@ -20,13 +24,16 @@ const EditProduct = () => {
         setFormData({
           name: res.data.name,
           price: res.data.price,
+          stock: res.data.stock || "",
+          category: res.data.category || "",  // ✅ ADDED
+          description: res.data.description || "",
           image: null,
         });
       })
       .catch((err) => console.error(err));
   }, [id]);
 
-  // Handle change
+  // Handle input change
   const handleChange = (e) => {
     const { name, value, files } = e.target;
 
@@ -36,13 +43,16 @@ const EditProduct = () => {
     });
   };
 
-  // Submit
+  // Submit update
   const handleSubmit = (e) => {
     e.preventDefault();
 
     const data = new FormData();
     data.append("name", formData.name);
     data.append("price", Number(formData.price));
+    data.append("stock", Number(formData.stock));
+    data.append("category", formData.category); // ✅ FIX HERE
+    data.append("description", formData.description);
 
     if (formData.image) {
       data.append("image", formData.image);
@@ -56,109 +66,81 @@ const EditProduct = () => {
       })
       .then((res) => {
         if (res.data.success) {
-          alert("Updated ✅");
+          alert("Product Updated Successfully ✅");
           navigate("/admin/products");
         } else {
           alert("Update Failed ❌");
         }
       })
-      .catch(() => alert("Server Error ❌"));
+      .catch((err) => {
+        console.log(err.response?.data);
+        alert("Server Error ❌");
+      });
   };
 
   return (
-    <div style={containerStyle}>
-      <div style={cardStyle}>
-        <h2 style={titleStyle}>Edit Form</h2>
+    <div className="add-product-container">
+      <div className="add-product-form">
+        <h2>Edit Product</h2>
 
-        <form onSubmit={handleSubmit} style={formStyle}>
+        <form onSubmit={handleSubmit}>
+          {/* NAME */}
           <input
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
             placeholder="Product Name"
-            style={inputStyle}
             required
           />
 
+          {/* PRICE */}
           <input
             type="number"
             name="price"
             value={formData.price}
             onChange={handleChange}
             placeholder="Price"
-            style={inputStyle}
             required
           />
 
+          {/* STOCK */}
           <input
-            type="file"
-            name="image"
+            type="number"
+            name="stock"
+            value={formData.stock}
             onChange={handleChange}
-            style={fileStyle}
+            placeholder="Stock Quantity"
+            required
           />
 
-          <button type="submit" style={buttonStyle}>
-            Update Product
-          </button>
+          {/* CATEGORY ✅ NEW */}
+          <input
+            type="text"
+            name="category"
+            value={formData.category}
+            onChange={handleChange}
+            placeholder="Category"
+            required
+          />
+
+          {/* DESCRIPTION */}
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            placeholder="Product Description"
+          />
+
+          {/* IMAGE */}
+          <input type="file" name="image" onChange={handleChange} />
+
+          {/* SUBMIT */}
+          <button type="submit">Update Product</button>
         </form>
       </div>
     </div>
   );
-};
-
-// 🎨 Styles
-
-const containerStyle = {
-  height: "100vh",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  background: "#f4f4f5",
-};
-
-const cardStyle = {
-  background: "#fff",
-  padding: "30px",
-  borderRadius: "12px",
-  boxShadow: "0 5px 15px rgba(0,0,0,0.1)",
-  width: "350px",
-  textAlign: "center",
-};
-
-const titleStyle = {
-  marginBottom: "20px",
-  color: "#2563eb",
-};
-
-const formStyle = {
-  display: "flex",
-  flexDirection: "column",
-  gap: "15px",
-};
-
-const inputStyle = {
-  padding: "10px",
-  borderRadius: "6px",
-  border: "1px solid #ccc",
-  backgroundColor: "#ffffff", // ✅ white
-  color: "#000000", // ✅ black text
-  fontSize: "14px",
-  outline: "none",
-};
-
-const fileStyle = {
-  fontSize: "14px",
-};
-
-const buttonStyle = {
-  padding: "10px",
-  background: "#2563eb",
-  color: "#fff",
-  border: "none",
-  borderRadius: "6px",
-  cursor: "pointer",
-  fontWeight: "bold",
 };
 
 export default EditProduct;
