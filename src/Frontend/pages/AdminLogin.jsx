@@ -31,23 +31,27 @@ const AdminLogin = () => {
         formData
       );
 
-      if (!res.data.success) {
-        setError(res.data.message);
+      console.log("API RESPONSE:", res.data);
+
+      if (!res.data || !res.data.admin) {
+        setError(res.data.message || "Invalid credentials");
         return;
       }
 
-      sessionStorage.setItem("admin", JSON.stringify(res.data.admin));
+      // ✅ Store token + admin
+      localStorage.setItem("token", res.data.token);
+      localStorage.setItem("admin", JSON.stringify(res.data.admin));
 
       navigate("/admin/dashboard");
 
     } catch (err) {
+      console.log(err);
       setError("Server error ❌");
     }
   };
 
   return (
     <div className="login-page">
-
       <div className="navbar">
         <div className="logo">SmartShop</div>
         <div className="nav-links">
@@ -70,14 +74,18 @@ const AdminLogin = () => {
               type="email"
               name="email"
               placeholder="Email"
+              value={formData.email}
               onChange={handleChange}
+              required
             />
 
             <input
               type="password"
               name="password"
               placeholder="Password"
+              value={formData.password}
               onChange={handleChange}
+              required
             />
 
             <button type="submit">Login</button>
