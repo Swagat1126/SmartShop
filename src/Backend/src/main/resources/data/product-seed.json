@@ -1,0 +1,817 @@
+[
+  {
+    "name": "5G Smartphone 128GB",
+    "description": "Fast 5G smartphone with a 6.5-inch display and 128GB storage.",
+    "price": 18999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 60,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Android Smartphone 64GB",
+    "description": "Affordable Android phone with 64GB storage and dual cameras.",
+    "price": 9999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 120,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Budget Smartphone 32GB",
+    "description": "Entry-level smartphone for daily use and social apps.",
+    "price": 6499.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 150,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Laptop 13-inch Ultrabook",
+    "description": "Lightweight 13-inch laptop for work and travel.",
+    "price": 58999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 25,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Laptop 15-inch Performance",
+    "description": "15-inch laptop with performance CPU and 16GB RAM.",
+    "price": 72999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 20,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "2-in-1 Convertible Laptop",
+    "description": "Touchscreen laptop that converts into a tablet.",
+    "price": 64999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 18,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Tablet 10-inch Wi-Fi",
+    "description": "10-inch tablet for reading, streaming, and browsing.",
+    "price": 17999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 50,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with deep bass.",
+    "price": 2999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 90,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Noise Cancelling Headphones",
+    "description": "Over-ear headphones with active noise cancellation.",
+    "price": 8999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 45,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Smart TV 43-inch 4K",
+    "description": "43-inch 4K smart TV with streaming apps.",
+    "price": 25999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 30,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Smart TV 55-inch 4K",
+    "description": "55-inch 4K smart TV with HDR support.",
+    "price": 38999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 20,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Home Theater Soundbar",
+    "description": "Soundbar with subwoofer for immersive audio.",
+    "price": 11999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 35,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Wireless Earbuds",
+    "description": "True wireless earbuds with charging case.",
+    "price": 3999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 80,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Smartwatch Fitness Edition",
+    "description": "Smartwatch with heart-rate and sleep tracking.",
+    "price": 6999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 55,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Portable SSD 1TB",
+    "description": "High-speed 1TB portable SSD for backups.",
+    "price": 8999.0,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 70,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+
+  {
+    "name": "Men's Denim Jacket",
+    "description": "Classic denim jacket for casual wear.",
+    "price": 2499.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 75,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Women's Maxi Dress",
+    "description": "Elegant maxi dress for special occasions.",
+    "price": 2999.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 60,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Lightweight running shoes with cushioned sole.",
+    "price": 3499.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 90,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Leather Belt",
+    "description": "Genuine leather belt with metal buckle.",
+    "price": 999.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 140,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Sunglasses",
+    "description": "UV-protected sunglasses with polarized lenses.",
+    "price": 1499.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 110,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Handbag Tote",
+    "description": "Spacious tote bag for everyday essentials.",
+    "price": 2199.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 65,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Analog Wristwatch",
+    "description": "Classic analog watch with stainless steel strap.",
+    "price": 3299.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 70,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Casual Sneakers",
+    "description": "Comfortable sneakers for daily wear.",
+    "price": 2599.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 95,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Hoodie Sweatshirt",
+    "description": "Warm hoodie with soft fleece lining.",
+    "price": 1899.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 120,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Formal Shirt",
+    "description": "Slim-fit formal shirt for office wear.",
+    "price": 1599.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 85,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Casual Jeans",
+    "description": "Regular-fit jeans with stretch fabric.",
+    "price": 1999.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 100,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Sports Cap",
+    "description": "Adjustable cap for outdoor activities.",
+    "price": 499.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 160,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Backpack",
+    "description": "Durable backpack with laptop compartment.",
+    "price": 1799.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 90,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Leather Wallet",
+    "description": "Slim leather wallet with multiple slots.",
+    "price": 899.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 130,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Winter Scarf",
+    "description": "Soft knit scarf for cold weather.",
+    "price": 699.0,
+    "category": "Fashion",
+    "imageUrl": "",
+    "stock": 140,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+
+  {
+    "name": "Gaming Console",
+    "description": "Home gaming console with 4K support.",
+    "price": 44999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 18,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Wireless Game Controller",
+    "description": "Ergonomic wireless controller for consoles.",
+    "price": 3999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 70,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Mechanical Gaming Keyboard",
+    "description": "Mechanical keyboard with RGB lighting.",
+    "price": 5499.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 55,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Gaming Mouse",
+    "description": "High-precision mouse with adjustable DPI.",
+    "price": 2499.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 85,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Gaming Headset",
+    "description": "Surround sound headset with noise isolation.",
+    "price": 4999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 65,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Gaming Chair",
+    "description": "Comfortable chair with lumbar support.",
+    "price": 12999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 22,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Gaming Monitor 144Hz",
+    "description": "24-inch 144Hz monitor for smooth gameplay.",
+    "price": 15999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 35,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "VR Headset",
+    "description": "Virtual reality headset for immersive gaming.",
+    "price": 24999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 15,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Racing Wheel",
+    "description": "Steering wheel controller with pedals.",
+    "price": 12999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 18,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Gaming Laptop",
+    "description": "High-performance laptop with dedicated GPU.",
+    "price": 89999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 10,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Capture Card",
+    "description": "HD capture card for game streaming.",
+    "price": 9999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 25,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Wireless Gamepad",
+    "description": "Compact gamepad for PC and mobile gaming.",
+    "price": 2499.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 70,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "RGB Mousepad",
+    "description": "Extended mousepad with RGB lighting.",
+    "price": 1499.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 90,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Streaming Microphone",
+    "description": "USB condenser microphone for streaming.",
+    "price": 6999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 40,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Game Disc Bundle",
+    "description": "Bundle of top-rated action and adventure games.",
+    "price": 5999.0,
+    "category": "Gaming",
+    "imageUrl": "",
+    "stock": 30,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+
+  {
+    "name": "Refrigerator 300L",
+    "description": "Energy-efficient refrigerator with large capacity.",
+    "price": 27999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 22,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Front Load Washing Machine",
+    "description": "Automatic washing machine with smart wash cycles.",
+    "price": 23999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 24,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Microwave Oven 20L",
+    "description": "Compact microwave with quick heating modes.",
+    "price": 8999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 40,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Air Fryer 4L",
+    "description": "Oil-free air fryer for healthy cooking.",
+    "price": 7999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 55,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Vacuum Cleaner",
+    "description": "Powerful vacuum cleaner for home cleaning.",
+    "price": 12999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 35,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Water Purifier",
+    "description": "RO water purifier with multi-stage filtration.",
+    "price": 16999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 28,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Induction Cooktop",
+    "description": "Portable induction cooktop with temperature control.",
+    "price": 2999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 75,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Electric Kettle",
+    "description": "1.5L electric kettle with auto shut-off.",
+    "price": 1299.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 90,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Mixer Grinder",
+    "description": "High-speed mixer grinder with 3 jars.",
+    "price": 3499.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 60,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Air Conditioner 1.5 Ton",
+    "description": "Inverter AC with efficient cooling.",
+    "price": 34999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 18,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Ceiling Fan",
+    "description": "Energy-saving ceiling fan with remote.",
+    "price": 2999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 110,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Room Heater",
+    "description": "Compact room heater for winter.",
+    "price": 2499.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 70,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Steam Iron",
+    "description": "Steam iron with anti-drip feature.",
+    "price": 1599.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 85,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Dishwasher",
+    "description": "Countertop dishwasher for small kitchens.",
+    "price": 24999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 12,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Coffee Maker",
+    "description": "Drip coffee maker with programmable timer.",
+    "price": 4999.0,
+    "category": "Home Appliances",
+    "imageUrl": "",
+    "stock": 50,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+
+  {
+    "name": "The Art of Cooking",
+    "description": "Practical cooking techniques and everyday recipes.",
+    "price": 799.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 140,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Modern Physics Guide",
+    "description": "Concise guide to modern physics concepts.",
+    "price": 999.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 90,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Business Strategy 101",
+    "description": "Introduction to business strategy and management.",
+    "price": 699.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 120,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Mystery of the Old House",
+    "description": "A suspenseful mystery novel set in a small town.",
+    "price": 499.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 180,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Space Adventures",
+    "description": "Sci-fi adventure across distant galaxies.",
+    "price": 549.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 160,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Healthy Habits",
+    "description": "Guide to building better daily habits.",
+    "price": 599.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 150,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Creative Writing Workbook",
+    "description": "Exercises to improve creative writing skills.",
+    "price": 649.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 110,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "World History Essentials",
+    "description": "Overview of key events in world history.",
+    "price": 899.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 100,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Beginner's Guide to Investing",
+    "description": "Basics of investing for long-term growth.",
+    "price": 799.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 130,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Mindful Living",
+    "description": "Practical tips for mindfulness and calm.",
+    "price": 699.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 115,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Everyday Vegetarian Recipes",
+    "description": "Simple vegetarian recipes for home cooking.",
+    "price": 749.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 105,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Learning Java Basics",
+    "description": "Step-by-step guide to Java programming.",
+    "price": 999.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 95,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Photography for Beginners",
+    "description": "Learn composition, lighting, and camera basics.",
+    "price": 799.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 90,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Personal Finance Planner",
+    "description": "Plan budgets, savings, and financial goals.",
+    "price": 599.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 125,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Travel Stories Collection",
+    "description": "A collection of inspiring travel stories.",
+    "price": 649.0,
+    "category": "Books",
+    "imageUrl": "",
+    "stock": 135,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+
+  {
+    "name": "Construction Blocks Set",
+    "description": "Creative block set for building and learning.",
+    "price": 1499.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 80,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Remote Control Car",
+    "description": "High-speed remote control car for kids.",
+    "price": 2499.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 70,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Action Figure",
+    "description": "Collectible action figure with accessories.",
+    "price": 999.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 60,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Jigsaw Puzzle 500 Pieces",
+    "description": "Challenging 500-piece jigsaw puzzle.",
+    "price": 699.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 95,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Doll Set",
+    "description": "Doll set with outfits and accessories.",
+    "price": 1299.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 75,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Board Game",
+    "description": "Family board game for 2-4 players.",
+    "price": 1199.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 90,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Science Experiment Kit",
+    "description": "STEM kit with safe science experiments.",
+    "price": 1999.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 50,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Model Train Set",
+    "description": "Miniature train set with tracks.",
+    "price": 3499.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 30,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Toy Drone",
+    "description": "Beginner-friendly drone with safe propellers.",
+    "price": 2999.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 45,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Yo-Yo",
+    "description": "Classic yo-yo for tricks and fun.",
+    "price": 299.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 150,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Colorful Kite",
+    "description": "Easy-to-fly kite for outdoor play.",
+    "price": 399.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 120,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Water Blaster",
+    "description": "Water blaster for summer fun.",
+    "price": 499.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 140,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Toy Guitar",
+    "description": "Toy guitar with musical sounds.",
+    "price": 899.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 70,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Puzzle Cubes Set",
+    "description": "Set of 3 puzzle cubes for brain training.",
+    "price": 599.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 95,
+    "createdAt": "2026-04-07T00:00:00"
+  },
+  {
+    "name": "Race Track Set",
+    "description": "Race track set with two cars.",
+    "price": 1799.0,
+    "category": "Toys",
+    "imageUrl": "",
+    "stock": 55,
+    "createdAt": "2026-04-07T00:00:00"
+  }
+]

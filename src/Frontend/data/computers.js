@@ -1,0 +1,58 @@
+export const computers = [
+    {
+        id: 1,
+        title: "Gaming Laptop",
+        price: 70000,
+        category: "Computers",
+        thumbnail: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    },
+    {
+        id: 2,
+        title: "RGB Keyboard",
+        price: 2500,
+        category: "Computers",
+        thumbnail: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+    },
+    {
+        id: 3,
+        title: "Desktop PC",
+        price: 55000,
+        category: "Computers",
+        thumbnail: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7",
+    },
+    {
+        id: 4,
+        title: "Wireless Mouse",
+        price: 1200,
+        category: "Computers",
+        thumbnail: "https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+    },
+    {
+        id: 5,
+        title: "UltraWide Monitor",
+        price: 15000,
+        category: "Computers",
+        thumbnail: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+    },
+    {
+        id: 6,
+        title: "External Hard Drive",
+        price: 4000,
+        category: "Computers",
+        thumbnail: "https://images.unsplash.com/photo-1587202372616-32705e3bf49c",
+    },
+    {
+        id: 7,
+        title: "MacBook Pro",
+        price: 120000,
+        category: "Computers",
+        thumbnail: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    },
+    {
+        id: 8,
+        title: "Cooling Pad",
+        price: 1800,
+        category: "Computers",
+        thumbnail: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7",
+    },
+];
